@@ -9,11 +9,4 @@ t.begin_fill()
 t.left(30)
 t.forward(100)
 
-
-
-
-
-
-
-
 turtle.done()

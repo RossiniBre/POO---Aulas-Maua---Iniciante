@@ -82,6 +82,6 @@ print(entrada(user, senha))'''
 
 inicio = int(input("Digite um valor: "))
 (contagem(inicio))
-print("Lançamento! 🚀")'''
+print("Lançamento!")'''
 "========================="
 
