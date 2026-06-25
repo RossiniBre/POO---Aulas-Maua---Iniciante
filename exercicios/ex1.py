@@ -27,3 +27,15 @@ for lados in [(3, 4, 5), (5, 5, 6), (5, 5, 5), (5, 5, 8), (2, 2, 3.9), (1, 1, 5)
     print(lados, "->")
     triangulo(*lados)
     print()
+
+def notas(nota):
+    if nota >= 9 :
+        print("A")
+    elif nota >= 7:
+        print("B")
+    elif nota >= 5:
+        print("C")
+    else:
+        print("D")
+
+notas(6)

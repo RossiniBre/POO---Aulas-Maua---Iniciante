@@ -14,3 +14,12 @@ for y in fila:
 
 print(f"Urgentes atendidas: {urgente}")
 print(f"Normais atendidas: {comum}")
+
+lista = [("Ana", 8.5), ("Bruno", 6.0), ("Carla", 9.2)]
+dic = {}
+for i in lista:
+    if i[1] >= 7:
+        dic[i[0]] = i[1]
+
+for i in dic.keys():
+    print(i)
