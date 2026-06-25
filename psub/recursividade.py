@@ -13,4 +13,3 @@ def soma(n):
     return soma(n // 10) + n % 10
 
 print(soma(678))
-
